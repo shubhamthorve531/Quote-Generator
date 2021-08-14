@@ -1,0 +1,65 @@
+body {
+    font-family: cursive;
+    background: url(/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 85%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+}
+
+header {
+    padding: 2em;
+    margin-top: 2em;
+    text-align: center;
+    color: #ffffff;
+    border: 0em;
+}
+
+h1 {
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.quote {
+    font-size: 2em;
+}
+
+.btn-large {
+    margin: 0.5em;
+}
+
+.card {
+    text-align: center;
+    width: 45em;
+}
+
+.new-quote-button {
+    background-color: #000000;
+    color: #ffffff;
+    border: solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#button:hover {
+    background-color: lightseagreen;
+    letter-spacing: 3px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+#quote {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#author {
+    text-align: end;
+    font-size: 1em;
+    color: #ffffff;
+}
